@@ -13,7 +13,7 @@ class Settings(BaseSettings):
     DEBUG: bool = True
 
     DATABASE_URL: str = (
-        "postgresql+psycopg://postgres:postgres@localhost:5432/saarthi"
+        "postgresql+psycopg://postgres:postgres@localhost:5433/saarthi"
     )
 
     SECRET_KEY: str = "change-this-in-production"
